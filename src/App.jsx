@@ -60,6 +60,7 @@ function App() {
         handleFileSelect(file)
     }
 
+    //function for downloading image
     const downloadImage = () => {
         if(!processedImage) return;
         const link = document.createElement("a");
